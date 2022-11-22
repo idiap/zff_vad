@@ -1,0 +1,2 @@
+include README.rst LICENSE environment.yml version.txt requirements.txt pyproject.toml
+recursive-include zff *

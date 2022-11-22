@@ -1,0 +1,12 @@
+*.egg-info
+.coverage
+notebooks
+.ipynb
+.ipynb_checkpoints
+.DS_Store
+**/__pycache__/
+.env
+.vscode/
+.empty
+segments
+.bandit
