@@ -2,10 +2,14 @@
 ZFF VAD
 ================================================================================================================
 
+
 [Paper_]
 [Poster_]
 [Video_]
 [Slides_]
+
+|License| |OpenSource| |BlackFormat| |BanditSecurity| |iSortImports|
+
 
 .. image:: img/figure.jpg
   :alt: Pipeline
@@ -37,12 +41,12 @@ Installation
 ------------
 
 This package has very few requirements. 
-To create a new conda/mamba environment, install conda_, then mamba_, and simply follow the next steps:
+To create a new conda/mamba environment, install conda_, then mamba_ and simply follow the next steps:
 
 .. code:: bash
 
     mamba env create -f environment.yml   # Create environment
-    mamba activate zff                    # Activate environment
+    conda activate zff                    # Activate environment
     make install clean                    # Install packages
 
 Command-line Usage
@@ -142,3 +146,22 @@ For questions or reporting issues to this software package, kindly contact the f
 .. _conda: https://conda.io
 .. _mamba: https://mamba.readthedocs.io/en/latest/installation.html#existing-conda-install
 __ https://www.isca-speech.org/archive/interspeech_2022/sarkar22_interspeech.html
+.. |License| image:: https://img.shields.io/badge/License-GPLv3-blue.svg
+    :target: https://github.com/idiap/ZFF_VAD/blob/master/LICENSE
+    :alt: License
+
+.. |OpenSource| image:: https://img.shields.io/badge/GitHub-Open%20source-green
+    :target: https://github.com/idiap/ZFF_VAD/
+    :alt: Open-Source
+
+.. |BlackFormat| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Style
+
+.. |BanditSecurity| image:: https://img.shields.io/badge/security-bandit-yellow.svg
+    :target: https://github.com/PyCQA/bandit
+    :alt: Security
+
+.. |iSortImports| image:: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336
+    :target: https://pycqa.github.io/isort
+    :alt: Imports
