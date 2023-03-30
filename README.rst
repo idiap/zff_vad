@@ -110,6 +110,9 @@ To extract the composite signal from a given audio file:
     # Get composite signal
     composite = zff_cs(audio, sr)
     
+    # Get all signals
+    composite, y0, y1, y2, gcis = zff_cs(audio, sr, verbose=True)
+
 
 Repository Structure
 -----------------------------
