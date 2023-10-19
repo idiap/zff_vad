@@ -1,0 +1,13 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Sarkar
+  given-names: Eklavya
+- family-names: Prasad
+  given-names: RaviShankar
+- family-names: Magimai.-Doss
+  given-names: Mathew
+title: Unsupervised Voice Activity Detection by Modeling Source and System Information using Zero Frequency Filtering
+doi: 
+version: v0.1.0
+date-released: 2023-10-16
